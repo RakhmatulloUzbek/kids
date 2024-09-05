@@ -26,6 +26,8 @@ class NoticeController extends Controller
      */
     public function index()
     {
+        $notices = Notice::all();
+        return view('partials.courses', compact('notices'));
         //
     }
 

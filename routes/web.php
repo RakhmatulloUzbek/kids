@@ -43,9 +43,9 @@ use App\Http\Controllers\GalleryController;
 Route::get('/', function () {
     return view('home.index');
 });
-
+Route::get('/Anoucement', [NoticeController::class, 'index'])->name('notice.index');
 Route::get('/About', function () { return view('home.aboutus'); });
-Route::get('/Courses', function () { return view('partials.courses'); });
+// Route::get('/Anoucement', function () { return view('partials.courses'); });
 Route::get('/Blog', function () { return view('home.blog'); });
 Route::get('/OurStuff', function () { return view('home.ourstaffs'); });
 Route::get('/Contact', function () { return view('home.contactus'); });

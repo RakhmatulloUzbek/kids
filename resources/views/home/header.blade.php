@@ -164,6 +164,7 @@
 {{--                        <a class="dt-menu-expand">+</a>--}}
 {{--                    </li>--}}
                     <li class="purple"><a href="/Blog" title>Blog</a></li>
+                    <li class="purple"><a href="/Anoucement" title>Anoucement</a></li>
                     @auth
                         <li class="menu-item-simple-parent menu-item-depth-0"> <a href="" class="dt-sc-button"> User <span class="fa fa-user"> </span></a>
                             <ul class="sub-menu">

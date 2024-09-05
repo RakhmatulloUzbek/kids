@@ -185,8 +185,7 @@
                 <li><a href="#" title="Google Plus" class="dt-sc-tooltip-top gplus"><span class="fa fa-google-plus"></span></a></li>
             </ul>
             @guest
-                <a href="" class="dt-sc-button small"> Sign in <span class="fa fa-chevron-circle-right"> </span></a>
-                <a href="" class="dt-sc-button small"> Sign up <span class="fa fa-chevron-circle-right"> </span></a>
+                <a href="/login" class="dt-sc-button small"> Sign in <span class="fa fa-chevron-circle-right"> </span></a>
             @endguest
 
         </div>

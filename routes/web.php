@@ -47,7 +47,7 @@ Route::get('/', function () {
 Route::get('/About', function () { return view('home.aboutus'); });
 Route::get('/Courses', function () { return view('partials.courses'); });
 Route::get('/Blog', function () { return view('home.blog'); });
-Route::get('/Shop', function () { return view('partials.shop'); });
+Route::get('/OurStuff', function () { return view('home.ourstaffs'); });
 Route::get('/Contact', function () { return view('home.contactus'); });
 
 

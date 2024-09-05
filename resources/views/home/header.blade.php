@@ -22,7 +22,7 @@
                 <div class="dt-menu-toggle" id="dt-menu-toggle">Menu<span class="dt-menu-toggle-icon"></span></div>
                 <ul id="menu-main-menu" class="menu">
                     <li class="current_page_item menu-item-simple-parent menu-item-depth-0 red"> <a href="{{route('home')}}"> Home </a>
-                        <ul class="sub-menu">
+                        <!-- <ul class="sub-menu">
                             <li> <a href="#"> Submenu Level I </a> </li>
                             <li> <a href="#"> Submenu Level I </a> </li>
                             <li> <a href="#"> Submenu Level I </a> </li>
@@ -36,12 +36,12 @@
                                 <a class="dt-menu-expand">+</a>
                             </li>
                         </ul>
-                        <a class="dt-menu-expand">+</a>
+                        <a class="dt-menu-expand">+</a> -->
                     </li>
-                    <li class="mustard"> <a href=""> About us </a> </li>
-                    <li class="green"> <a href=""> Our Staffs </a> </li>
-                    <li class="yellow"> <a href=""> Services </a> </li>
-                    <li class="blue"> <a href=""> Portfolio </a> </li>
+                    <li class="mustard"> <a href="/About"> About us </a> </li>
+                    <li class="green"> <a href="/OurStuff"> Our Staffs </a> </li>
+                    <li class="yellow"> <a href="/Contact"> contact </a> </li>
+                  
 {{--                    <li class="menu-item-simple-parent menu-item-depth-0 blue"><a href="portfolio-four-column.html" title>Portfolio</a>--}}
 {{--                        <ul class="sub-menu">--}}
 {{--                            <li><a href="portfolio-four-column.html">Portfolio Four Column</a></li>--}}
@@ -163,23 +163,12 @@
 {{--                        </ul>--}}
 {{--                        <a class="dt-menu-expand">+</a>--}}
 {{--                    </li>--}}
-                    <li class="purple"><a href="" title>Blog</a></li>
-                    <li class="pink"><a href="" title>Contact us</a></li>
+                    <li class="purple"><a href="/Blog" title>Blog</a></li>
                     @auth
                         <li class="menu-item-simple-parent menu-item-depth-0"> <a href="" class="dt-sc-button"> User <span class="fa fa-user"> </span></a>
                             <ul class="sub-menu">
-                                <li> <a href="#"> Submenu Level I </a> </li>
-                                <li> <a href="#"> Submenu Level I </a> </li>
-                                <li> <a href="#"> Submenu Level I </a> </li>
-                                <li> <a href="#"> Submenu Level I </a> </li>
-                                <li> <a href="#"> Submenu Level I </a>
-                                    <ul class="sub-menu">
-                                        <li> <a href="#"> Submenu Level II </a> </li>
-                                        <li> <a href="#"> Submenu Level II </a> </li>
-                                        <li> <a href="#"> Submenu Level II </a> </li>
-                                    </ul>
-                                    <a class="dt-menu-expand">+</a>
-                                </li>
+                                <li> <a href="/home"> Dashboard </a> </li>
+                           
                             </ul>
                             <a class="dt-menu-expand">+</a>
                         </li>
